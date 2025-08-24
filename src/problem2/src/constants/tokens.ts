@@ -1,0 +1,38 @@
+export const TOKEN_LIST = [
+  { symbol: "ETH", name: "Ethereum" },
+  { symbol: "WBTC", name: "Wrapped Bitcoin" },
+  { symbol: "USDC", name: "USD Coin" },
+  { symbol: "axlUSDC", name: "Axelar USD Coin" },
+  { symbol: "BUSD", name: "Binance USD" },
+  { symbol: "USD", name: "US Dollar" },
+  { symbol: "SWTH", name: "Switcheo" },
+  { symbol: "rSWTH", name: "Switcheo TradeHub" },
+  { symbol: "ATOM", name: "Cosmos" },
+  { symbol: "stATOM", name: "Staked ATOM" },
+  { symbol: "rATOM", name: "StaFi rATOM" },
+  { symbol: "OSMO", name: "Osmosis" },
+  { symbol: "stOSMO", name: "Staked OSMO" },
+  { symbol: "LUNA", name: "Terra Luna" },
+  { symbol: "stLUNA", name: "Staked LUNA" },
+  { symbol: "ampLUNA", name: "Eris Amplified LUNA" },
+  { symbol: "EVMOS", name: "Evmos" },
+  { symbol: "stEVMOS", name: "Staked EVMOS" },
+  { symbol: "IRIS", name: "IRISnet" },
+  { symbol: "STRD", name: "Stride" },
+  { symbol: "KUJI", name: "Kujira" },
+  { symbol: "BLUR", name: "Blur" },
+  { symbol: "bNEO", name: "BurgerNEO" },
+  { symbol: "GMX", name: "GMX" },
+  { symbol: "IBCX", name: "IBC Index" },
+  { symbol: "LSI", name: "LSI" },
+  { symbol: "OKB", name: "OKB" },
+  { symbol: "OKT", name: "OKC Token" },
+  { symbol: "USC", name: "USC" },
+  { symbol: "wstETH", name: "Wrapped stETH" },
+  { symbol: "YieldUSD", name: "YieldUSD" },
+  { symbol: "ZIL", name: "Zilliqa" },
+];
+
+export const getTokenIcon = (symbol: string) => {
+  return `https://raw.githubusercontent.com/Switcheo/token-icons/main/tokens/${symbol}.svg`;
+};
