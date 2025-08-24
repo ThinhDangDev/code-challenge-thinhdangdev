@@ -77,7 +77,7 @@ const sum_to_n_c = function (n: number): number {
 ### Installation
 
 ```bash
-cd src/problem_1
+cd src/problem1
 npm install
 ```
 
