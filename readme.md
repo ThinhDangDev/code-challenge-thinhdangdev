@@ -29,6 +29,8 @@ A modern React/TypeScript token swap interface featuring:
 - Smart token selection and slippage controls
 - Responsive design with Tailwind CSS and Shadcn/ui
 
+[Demo](https://cothinde-challenge-thinhdangdev.vercel.app/)
+
 ### [Problem 3: WalletPage Refactoring](./src/problem3/README.md)
 
 Code review and refactoring of a React wallet component, addressing:
