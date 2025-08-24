@@ -24,7 +24,7 @@ TypeScript implementation of three different approaches to calculate the sum of 
 
 A modern React/TypeScript token swap interface featuring:
 
-- Real-time cryptocurrency price data from Switcheo API
+- Fetch cryptocurrency price data from Switcheo API
 - Intuitive swap interface with form validation
 - Smart token selection and slippage controls
 - Responsive design with Tailwind CSS and Shadcn/ui
